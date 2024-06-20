@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<title>English Service Center</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="w3.css">-->
+    <!--Jquery file-->
+    <script src="C:\Users\DE\Desktop\books webstie\js\jquery.js"></script>
+    <link rel="stylesheet" href="css/table.css">
+    
+<body>
+    <header class="header">
+
+        <div class="header-1">
+    
+            <a href="#" class="logo"> <i class="fas fa-book"></i>English Center</a>
+    
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+    
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="heart" class="fas fa-heart"></div>
+                <div id="shopcart" class="fas fa-shopping-cart"></div>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+    
+        </div>
+    
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#leacture" class="leat">leacture</a>
+                <a href="#Dictonary">Dictonary</a>
+                <a href="#reviews">reviews</a>
+                <a href="#Story">Story</a>
+                <a href="#aboutus">About Us</a>
+            </nav>
+        </div>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <!-- bottom navbar  -->
+    
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#leacture" class="fas fa-list" class="leat"></a>
+        <a href="#Dictonary" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#Story" class="fas fa-blog"></a>
+        <a href="#aboutus" class="fa-solid fa-info"></a>
+    </nav>
+    
+    <!-- login form  -->
+    
+    <div class="login-form-container">
+    
+        <div id="close-login-btn" class="fas fa-times"></div>
+    
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="" required>
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="" required>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+        </form>
+    
+    </div>
+    <div class="w3-sidebar w3-bar-block w3-card" style="color:rgb(58, 211, 63);width:130px;height:250px;margin-top: 10%;">
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Fade</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Left</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Right</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Top</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')">Bottom</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Zoom</button>
+    </div>
+
+<div style="margin-left:130px">
+    <div id="Fade" class="w3-container book w3-animate-opacity">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div> 
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Left" class="w3-container book w3-animate-opacity" style="display:none">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div> 
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Right" class="w3-container book w3-animate-opacity" style="display:none">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div> 
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Top" class="w3-container book w3-animate-opacity" style="display:none">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div> 
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Bottom" class="w3-container book w3-animate-opacity" style="display:none">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div> 
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Zoom" class="w3-container book w3-animate-opacity" style="display:none">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div> 
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/buy-1.jpg" alt="">
+                    <h4>New Book</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$15.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="pagination">
+    <a href="#">Previous</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">Next</a>
+  </div>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>mr. dipak verma</span> | all rights reserved! </div>
+
+</section>
+<script>
+function openLink(evt, animName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("book");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(animName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+
+</body>
+</html>

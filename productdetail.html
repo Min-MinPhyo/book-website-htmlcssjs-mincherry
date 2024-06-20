@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Jquery file-->
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/table.css">
+    <script>
+        $(document).ready(function () {
+            $(".row .col-4").click(function () {
+                $(this).filter(".col-4").click(function () {
+                   var title = $(this).children("h4").text();
+                   var price = $(this).children("p").text();
+                   var img = $(this).children("img").attr("src");
+                   console.log(title);
+                   console.log(price);
+                   console.log(img); 
+
+
+                  let markup = "<img src='"+img+"'style='width:300px;height:400px;margin-left:100px;float:left;'>";
+                  markup += "<div style='margin-left:450px;margin-top: 100px;'>";
+                  markup += "<h1>"+title+"</h1>";
+                  markup += "<h3>"+price+"</h3>";
+                  markup += "</div>";
+                    $(".product").append(markup);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$15.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$10</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$13.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$8.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$9.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$154</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$17</p>
+            </div>
+            <div class="col-4">
+                <img src="images/buy-1.jpg" alt="">
+                <h4>New Book</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$11</p>
+            </div> 
+        </div>
+    </div>
+    <div class="product">
+
+    </div>
+</body>
+</html>
